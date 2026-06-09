@@ -73,32 +73,51 @@ Command to install - npx playwright install
 # Execution Steps and Commands
 
 #  To Run all tests 
-npx playwright test 
- 
+```bash
+npx playwright test
+```
 # To Run tests in headed mode 
-npx playwright test --headed 
+```bash
+npx playwright test --headed
+```
  
 # To Run tests in UI mode 
-npx playwright test --ui 
+```bash
+npx playwright test --ui
+```
  
 # To Show HTML report 
-npx playwright show-report 
+```bash
+npx playwright show-report
+```
  
 # To Run only smoke tests 
-npx playwright test --grep @smoke 
+```bash
+npx playwright test --grep @smoke
+```
  
 # TO Run only negative tests 
-npx playwright test --grep @negative 
+```bash
+npx playwright test --grep @negative
+```
  
 # Run specific test file 
-# For Login
-npx playwright test tests/login.spec.ts 
-# For Cart
-npx playwright test tests/cart.spec.ts 
-# For Products
-npx playwright test tests/product.spec.ts 
-# For Checkout
-npx playwright test tests/checkout.spec.ts 
+ For Login
+ ```bash
+npx playwright test tests/login.spec.ts
+``` 
+ For Cart
+ ```bash
+npx playwright test tests/cart.spec.ts
+```
+For Products
+```bash
+npx playwright test tests/product.spec.ts
+```
+For Checkout
+```bash
+npx playwright test tests/checkout.spec.ts
+```
 
 
 
