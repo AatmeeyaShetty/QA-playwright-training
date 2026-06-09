@@ -58,11 +58,17 @@ Command to install - npx playwright install
  npm -v
 ```
 2.Clone or download the repository 
+```bash
  command: git clone <github.com/AatmeeyaShetty/9th_June> cd <project-folder>
+```
 3.Install the requirements/dependencies listed in package.json
+```bash
  npm install
+```
 4.Install playwright Browsers
+```bash
  npm playwright install // downloads the required browser - chromium,firefox and Webkit
+```
 
 # Execution Steps and Commands
 
